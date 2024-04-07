@@ -1,0 +1,11 @@
+* Z:\home\martin\Escritorio\2024\githubTC2\TC2\TS1.asc
+R1 N001 V1 2k
+R2 V2 N001 2k
+V1 V1 0 0 AC 1
+XU1 N001 N002 V2 opamp Aol=100K GBW=10Meg
+R3 N002 0 100
+C1 N001 N002 2µ
+.ac lin 1000 1k 90k
+.inc opamp.sub
+.backanno
+.end
