@@ -5,5 +5,5 @@ Preguntas para responder en las métricas de la semana del 4-11/4:
    a) Que el filtro disminuya su frecuencia de corte. FALSO. Q no afecta a la frecuencia de corte.
    b) Que la salida aumente Q veces en la frecuencia de corte.VERDADERO.
    d) Que los polos del filtro se alejen del eje jw.FALSO. Mientras más grande el Q, mas cerca del eje jw se encuentran los polos.
-2- Normalizar un filtro como el de 1) en frecuencia implica aumentar el valor de los capacitores. FALSO. No necesariamente, tambien se puede variar el valor de L, en caso de que sea un filtro pasivo.
-3- Normalizar un filtro como el de 1) en impedancia implica aumentar el valor de los inductores.FALSO. Podemos escalar en R y dejaríamos los valores de los componentes de igual manera.
+2- Normalizar un filtro como el de 1) en frecuencia implica aumentar el valor de los capacitores. VERDADERO. Hay que aumentar todos los componentes reactivos
+3- Normalizar un filtro como el de 1) en impedancia implica aumentar el valor de los inductores.FALSO. Implica disminuir los inductures y aumentar los capacitores.
