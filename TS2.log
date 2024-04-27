@@ -1,4 +1,4 @@
-Circuit: * Z:\home\martin\Escritorio\2024\githubTC2\TC2\TS2.asc
+Circuit: * C:\users\martin\Escritorio\UTN\2024\TC2\MITC2\TC2\TS2.asc
 
 Ignoring empty pin current: Ix(u1:1)
 Ignoring empty pin current: Ix(u1:2)
@@ -13,8 +13,8 @@ Ignoring empty pin current: Ix(u5:2)
 Ignoring empty pin current: Ix(u6:1)
 Ignoring empty pin current: Ix(u6:2)
 
-Date: Tue Apr 23 15:51:26 2024
-Total elapsed time: 0.030 seconds.
+Date: Sat Apr 27 19:07:13 2024
+Total elapsed time: 0.088 seconds.
 
 tnom = 27
 temp = 27
@@ -24,7 +24,7 @@ traniter = 0
 tranpoints = 0
 accept = 0
 rejected = 0
-matrix size = 16
-fillins = 16
+matrix size = 14
+fillins = 15
 solver = Normal
 
