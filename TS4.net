@@ -1,4 +1,4 @@
-* Z:\home\martin\Escritorio\2024\githubTC2\TC2\TS4.asc
+* C:\users\martin\Escritorio\UTN\2024\TC2\MITC2\TC2\TS4.asc
 R5 N010 N009 1
 XU1 N001 N010 V1 opamp Aol=100K GBW=10Meg
 R4 V1 N001 1
@@ -22,13 +22,13 @@ XU6 N006 0 V23 opamp Aol=100K GBW=10Meg
 R22 N006 V22 1
 C22 V23 N006 .949
 R23 V23 N002 1
-R31 N012 V23 1
+R31 N012 V23 0.0001
 C31 N012 0 2.59
 XU7 N008 N012 N008 opamp Aol=100K GBW=10Meg
 XU8 N007 0 Vo opamp Aol=100K GBW=10Meg
 R41 N007 N008 0.5
 R42 Vo N007 1
 .inc opamp.sub
-.ac dec 10000 0.001 1
+.ac dec 10000 0.000001 1
 .backanno
 .end
