@@ -1,0 +1,13 @@
+* C:\users\martin\Escritorio\2024\githubTC2\TC2\TS5_Desnormalizada.asc
+R1 Vo Vo1 1
+C1 Vo 0 86.1288µ
+R2 N001 Vi 1.17563
+R3 N002 N001 1.17563
+C2 N002 0 92.51µ
+C3 Vo1 N001 92.51µ
+XU1 N002 Vo1 Vo1 opamp Aol=100K GBW=10Meg
+V1 Vi 0 AC 1
+.inc opamp.sub
+.ac dec 1000 0.1 10k
+.backanno
+.end
