@@ -1,0 +1,12 @@
+* Z:\home\martin\Escritorio\2024\githubTC2\TC2\TS3\Spice\TS3NORMALIZADO.asc
+R1 N001 Vi 0.798
+C1 N001 0 1
+V1 Vi 0 AC 1
+L1 Vo2 N002 637.34m
+R2 Vo2 0 0.798
+C2 Vo2 0 1
+XU1 N002 N001 N002 opamp Aol=100K GBW=10Meg
+.ac dec 1000 0.01 .4
+.inc opamp.sub
+.backanno
+.end
