@@ -1,5 +1,12 @@
-Circuit: * Z:\home\martin\Escritorio\2024\githubTC2\TC2\TS6\Spice\TS6_ACTIVADO.asc
-
+LTspice 24.0.12 for Windows
+Circuit: * C:\UTN\2024\TC2\Mi_Repo\TC2\TS6\Spice\TS6_ACTIVADO.asc
+Start Time: Wed Jun 26 17:35:00 2024
+solver = Normal
+Maximum thread count: 12
+tnom = 27
+temp = 27
+method = modified trap
+.OP point found by inspection.
 Ignoring empty pin current: Ix(u1:1)
 Ignoring empty pin current: Ix(u1:2)
 Ignoring empty pin current: Ix(u2:1)
@@ -12,19 +19,17 @@ Ignoring empty pin current: Ix(u3:1)
 Ignoring empty pin current: Ix(u3:2)
 Ignoring empty pin current: Ix(u6:1)
 Ignoring empty pin current: Ix(u6:2)
-
-Date: Wed Jun 19 19:37:24 2024
-Total elapsed time: 0.030 seconds.
-
-tnom = 27
-temp = 27
-method = trap
-totiter = 0
-traniter = 0
-tranpoints = 0
-accept = 0
-rejected = 0
-matrix size = 17
-fillins = 24
-solver = Normal
+Ignoring empty pin current: Ix(u1:1)
+Ignoring empty pin current: Ix(u1:2)
+Ignoring empty pin current: Ix(u2:1)
+Ignoring empty pin current: Ix(u2:2)
+Ignoring empty pin current: Ix(u4:1)
+Ignoring empty pin current: Ix(u4:2)
+Ignoring empty pin current: Ix(u5:1)
+Ignoring empty pin current: Ix(u5:2)
+Ignoring empty pin current: Ix(u3:1)
+Ignoring empty pin current: Ix(u3:2)
+Ignoring empty pin current: Ix(u6:1)
+Ignoring empty pin current: Ix(u6:2)
+Total elapsed time: 0.217 seconds.
 
