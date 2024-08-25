@@ -1,0 +1,21 @@
+* C:\UTN\2024\TC2\Mi_Repo\TC2\TPLAB1\Filtro_Notch_UAF42.asc
+RQ In3 0 9k
+V1 N004 N005 SINE(0 100m 110h) AC 1
+V2 N005 0 SINE(0 1 500h) AC 1
+Rg In2 N004 50
+XU5 TL In2 In3 N002 0 Vout TBANDPAS N001 V- V+ 0 NC_01 TH N003 UAF42
+RF1 TH N001 3.183Meg
+RF2 TBANDPAS N003 3.183Meg
+R23 Vout N002 10k
+V3 V+ 0 3V
+V4 0 V- 3V
+R21 TL N002 2k
+R22 N002 TH 2k
+R1 N002 0 250
+.ac dec 10000 20 80
+* Valores del integrado
+.param C = 1n
+.param R = 50k
+.lib "C:\Users\marti\AppData\Local\LTspice\lib\sub\UAF42.lib"
+.backanno
+.end
