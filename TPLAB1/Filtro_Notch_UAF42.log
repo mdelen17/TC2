@@ -1,6 +1,6 @@
 LTspice 24.0.12 for Windows
 Circuit: * C:\UTN\2024\TC2\Mi_Repo\TC2\TPLAB1\Filtro_Notch_UAF42.asc
-Start Time: Sat Aug 24 18:24:26 2024
+Start Time: Mon Aug 26 17:57:20 2024
 solver = Normal
 Maximum thread count: 12
 tnom = 27
@@ -27,5 +27,5 @@ Gmin = 5.50104
 Gmin = 0
 Gmin stepping succeeded in finding the operating point.
 
-Total elapsed time: 0.362 seconds.
+Total elapsed time: 0.557 seconds.
 
