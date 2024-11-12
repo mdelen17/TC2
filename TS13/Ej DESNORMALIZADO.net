@@ -1,0 +1,19 @@
+* C:\UTN\2024\TC2\Mi_Repo\TC2\TS13\Ej DESNORMALIZADO.asc
+V1 N001 0 AC 1 0 Rser=50
+L1 N002 N001 {L1}
+C1 N002 0 {C1}
+L2 N003 N002 {L2}
+RL N003 0 {RL}
+.net I(RL) V1
+.param Ww=2*pi*F Wz=R0
+.param RL = Wz
+.param L1 = 1.225*Wz/Ww
+.param C1 = (0.5527)/(Wz*Ww)
+.param L2 = 0.1922*Wz/Ww
+.ac dec 1000 {Fi} {Ff}
+.param R0 = 50
+.param F = 10**6
+.param Fi = F/100
+.param Ff = F*100
+.backanno
+.end
